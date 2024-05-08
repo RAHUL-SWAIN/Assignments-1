@@ -12,7 +12,7 @@ import AmazonFilmCard from './Components/AmazonCard/AmazonFilmCard';
 function App() {
   return (
     <div>
-      {/* <Header />
+      <Header />
       <div style={{display:"flex", flexWrap:'wrap'}}>
         <YoutubeCard imgLink='https://i.ytimg.com/vi/CW6jDJdmloo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuA32vulBzdBjjQmxWhKxs-5_4ow'
                     heading ='Hanuman Chalisha'
@@ -55,7 +55,7 @@ function App() {
                       views = '8.4k views'
                       days = '10 days before'
         />        
-      </div> */}
+      </div>
 
 
 
@@ -150,12 +150,14 @@ function App() {
      </div> */}
 
 
-     <div>
+
+
+     {/* <div>
       <h2 style={{textAlign:"center",color:"deeppink"}}><u>FILM CARD IN AMAZON</u></h2>
        <AmazonFilmCard />
       
      </div>
-    
+     */}
     </div>
   );
 }
