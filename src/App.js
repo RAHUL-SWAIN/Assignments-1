@@ -7,6 +7,7 @@ import News from './Components/cricbuzz/news'
 import Properties from './Components/props/Properties';
 import Example from './Components/IRCTC/Example';
 import HolidayCard from './Components/IRCTC/HolidayCard';
+import AmazonFilmCard from './Components/AmazonCard/AmazonFilmCard';
 
 function App() {
   return (
@@ -114,7 +115,7 @@ function App() {
 
 
 
-     <div style={{display:"flex" , flexWrap:"wrap" , gap:"20px"}}>
+     {/* <div style={{display:"flex" , flexWrap:"wrap" , gap:"20px"}}>
       
         <HolidayCard imgLink= 'https://www.irctc.co.in/nget/assets/images/exterior.jpg'
                          alt='Maharajas Express'
@@ -146,8 +147,15 @@ function App() {
                          para="IRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available."
                      paraLink="https://www.irctctourism.com/#/tourpkgs"
       /> 
-     </div>
+     </div> */}
+
+
+     <div>
+      <h2 style={{textAlign:"center",color:"deeppink"}}><u>FILM CARD IN AMAZON</u></h2>
+       <AmazonFilmCard />
       
+     </div>
+    
     </div>
   );
 }
